@@ -1,0 +1,61 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box; /* This magic block makes all dimensions of the websites work as expected. */
+}
+
+* + * {
+  margin-top: 1.5em; /* The Lobotomized Owl gives lovely margins between elements. */
+}
+
+body {
+  width: 60ch; /* The web page will be as large as 60 text characters because that's a good limit of characters to read text easily. */
+  max-width: 100%; /* The web page will not be wider than 100% of the screen. */
+  font-family: sans-serif; /* Sans-serif fonts (the ones without squiggles on letters) are easier to read as body text on screen. */
+  font-size: 1em; /* Makes the font size the same size as the user's default font size. */
+  line-height: 1.5em; /* The height of a line of text is 50% more than the height of the text itself. It makes reading easier. */
+  padding: 20px 40px 20px 40px; /* How much blank space between the edge of the screen and the edge of the text. */ /* Top Right Bottom Left */
+  margin: 0 auto; /* Centers the web page on the screen */
+}
+
+ul {
+  list-style-type: none; /* No automatic bullets for our list */
+  padding-left: 0; /* No need for space on the left because we removed the bullets. */
+}
+
+li {
+  display: inline-block; /* Makes a horizontal list instead of a vertical list */
+  padding-right: 10px; /* Push the menu items a bit further apart so people can click or touch them more easily. */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif; /* Fancier headers! */
+}
+
+h1 {
+  font-size: 2.3em; /* Makes the size of the page name 2.3 times that of body text. */
+}
+
+p, ul, li, dl, dd, dt {
+  font-family: inherit; /* Uses the same font (sans-serif) as the body font. */
+}
+
+dt {
+  font-weight: bolder; /* Makes the fanfictions titles bolder */
+}
+
+dt + dd, dd + dd {
+  margin-top: 0; /* The pretty Lobotimized Owl margins must not apply between the title of the fanfiction and its meta details. */
+}
+
+hr {
+  width: 75% /* Makes the horizontal ruler's width 75% of the width of the column of text. I just think it's prettier. */
+}
+
+strong {
+  font-weight: bolder; /* Ensures that bold text is indeed bolder. */
+}
+
+em {
+  font-style: italic; /* Ensures that italic text is indeed italic. */
+}
